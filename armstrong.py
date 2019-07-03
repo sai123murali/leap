@@ -1,0 +1,16 @@
+a=int(input(""))
+count=0
+s=a
+while(s!=0):
+    s//=10
+    count+=1
+s=a
+x=0
+while((s>0)and(s<=100000)):
+    r=s%10
+    x+=pow(r,count)
+    s//=10
+if(a==x):
+    print("yes")
+else:
+    print("no")
