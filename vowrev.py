@@ -1,8 +1,9 @@
-def rev(str):
+def rev(str1):
     vowels=('a','e','i','o','u','A','E','I','O','U')
-    for i in str:
+    for i in str1:
         if i in vowels:
-            str=str.replace(i,"")
-    print(str[::-1])
-str=input("")
-rev(str)
+            str1=str1.replace(i,"")
+    print(str1[::-1])
+a=int(input(""))
+str1=input("")
+rev(str1)
