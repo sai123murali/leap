@@ -1,0 +1,6 @@
+a=int(input(""))
+l=list(map(int,input("").split()))
+l.sort()
+m=(a//2)
+n=int(m)
+print(l[n])
