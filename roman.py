@@ -1,4 +1,4 @@
-def roman(str):
+def roman(str1):
      dict={
             "I":1,
             "II":2,
@@ -21,6 +21,6 @@ def roman(str):
             "XIX":19,
             "XX":20,
             }
-str=input("")
-roman(str)
-print(dict[str])
+str1=input("")
+roman(str1)
+print(dict[str1])
