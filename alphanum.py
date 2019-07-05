@@ -3,6 +3,6 @@ def num(str):
         float(str)
         print("yes")
     except:
-        print("no")
+        print("No")
 str=input("")
 num(str)
